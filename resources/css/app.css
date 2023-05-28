@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+@import 'alerts';
+@import 'badges';
+@import 'buttons';
+@import 'button_group';
+@import 'custom_scrollbar.css';
+
+@import 'tailwindcss/utilities';

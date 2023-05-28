@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "commit": "npx git-cz",
+        "development": "mix",
+        "dev": "npm run development",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.3.4",
+        "autoprefixer": "^10.4.0",
+        "commitizen": "^4.2.4",
+        "cross-env": "^7.0.3",
+        "cz-conventional-changelog": "^3.3.0",
+        "husky": "^7.0.4",
+        "laravel-echo": "^1.11.3",
+        "laravel-mix": "^6.0.37",
+        "postcss": "^8.3.11",
+        "postcss-font-magician": "^3.0.0",
+        "postcss-import": "^14.0.2",
+        "postcss-nested": "^5.0.6",
+        "resolve-url-loader": "^4.0.0",
+        "tailwindcss": "^2.2.19"
+    },
+    "dependencies": {
+        "alpinejs": "^2.7.2",
+        "tippy.js": "^6.3.3"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
